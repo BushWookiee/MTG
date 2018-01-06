@@ -7,14 +7,16 @@ class Dino:
 	def function(self):
 		print("Def message")
 
-initDino = 1
+print'This program will print out how many total dinosaurs are created'
+print 'using the Polyraptor and Forerunner of the Empire combo'
+print ' '
 dmg = raw_input('Enter damage to be done: ')
-print("Damage: " + dmg)
+#print("Damage: " + dmg)
 count = 0
 dead = 0
 Dinos = []
 Dinos.append(Dino())
-print 'health:',Dinos[0].health
+#print 'health:',Dinos[0].health
 #Dinos[0].health -= 1
 #print 'health:',Dinos[0].health
 
@@ -47,3 +49,4 @@ for x in range(int(dmg)): # Starting from 0 dmg loop through to max dmg
 total = len(Dinos) - int(dead)
 #print 'len',len(Dinos),'dead',dead
 print 'Dinos:',total # Print number of dinos left
+
