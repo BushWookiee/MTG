@@ -9,6 +9,8 @@ class Dino:
 
 print'This program will print out how many total dinosaurs are created'
 print 'using the Polyraptor and Forerunner of the Empire combo'
+print 'This program also assumes that you are only starting with one raptor'
+print 'that is not indesctructible.'
 print ' '
 dmg = raw_input('Enter damage to be done: ')
 #print("Damage: " + dmg)
